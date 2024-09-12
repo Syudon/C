@@ -13,7 +13,7 @@ void main()
 
     if(fichier!=NULL)
     {
-        while (fconf(fichier,"%f\t%f",&x,&y)!=)
+        while (fconf(fichier,"%f\t%f",&x,&y)!=EOF) // La fin du la condition signifie : Different de End Of File (EOF)
         {tabX[i]=x;tabY[i]=y;i++}
 
 
